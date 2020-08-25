@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="icon" 
       type="image/png" 
@@ -61,27 +62,29 @@
         </div>
         
         <div class="container-fluid companies">
-            <div class="carousel justify-content-center">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://tinyhorse.com/wp-content/uploads/2020/04/tiny-horse-feetures.png" class="img-thumbnail" alt="some logo">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://cdn.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/05/tiny-horse-ITV-v2.png" class="img-thumbnail" alt="some logo">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://cdn.pixabay.com/photo/2016/11/30/18/14/like-1873541__480.png" class="img-thumbnail" alt="some logo">
-                    </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                    </a>
+            <button type="button" class="slick-prev slick-custom-arrow"><</button>
+            <div class="slick-slider">
+                
+                <div class="slick-slide" data-slick-index="1">
+                    <img class="slider-img" src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
+                <div class="slick-slide" data-slick-index="2">
+                    <img class="slider-img" src="https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
+                <div class="slick-slide" data-slick-index="3">
+                    <img class="slider-img" src="https://images.pexels.com/photos/1346086/pexels-photo-1346086.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
+                <div class="slick-slide" data-slick-index="4">
+                    <img class="slider-img" src="https://images.pexels.com/photos/672244/pexels-photo-672244.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
+                <div class="slick-slide" data-slick-index="5">
+                    <img class="slider-img" src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
+                <div class="slick-slide" data-slick-index="6">
+                    <img class="slider-img" src="https://images.pexels.com/photos/37401/dog-cute-pet.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" srcset="">
+                </div>
             </div>
+            <button type="button" class="slick-next slick-custom-arrow">></button>
         </div>
     
         <div class="container-fluid secondary-main d-flex flex-column justify-content-around px-5">
@@ -190,5 +193,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
