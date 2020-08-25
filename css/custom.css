@@ -92,11 +92,12 @@ h1, h2, h3, h4, h5, h6, p {
     min-height: 50vh;
     background-color: black;
     color: white;
-    text-align: center
+    text-align: center;
 }
 
-.footer .row:not(:last-child) {
+.footer-main{
     height: 90%;
+    font-size: .9rem;
 }
 
 .footer span {
