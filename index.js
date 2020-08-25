@@ -5,8 +5,9 @@
     draggable: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: ".slick-prev.slick-custom-arrow",
-    nextArrow: ".slick-next.slick-custom-arrow",
+    // prevArrow: ".slick-prev.slick-custom-arrow",
+    // nextArrow: ".slick-next.slick-custom-arrow",
+    arrows: true,
     responsive: [
       {
         breakpoint: 1024,
