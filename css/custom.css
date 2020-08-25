@@ -1,0 +1,97 @@
+.body {
+    font-family: 'cardo', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: big-caslon-fb, serif;
+}
+
+.main {
+    background-color: blue;
+    min-height: 80vh;
+    color: white;
+}
+
+.navbar.navbar-expand-md {
+    background-color: transparent;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+}
+
+.nav-item.active {
+    border-bottom: 2px solid orange;
+}
+
+.navbar-toggler-icon {
+    fill: white;
+}
+
+.jumbotron-fluid {
+    padding: 10% 10% 0 0;
+}
+
+.companies {
+    background-color: rgb(43, 37, 29);
+}
+
+.secondary-main {
+    background-color: thistle;
+    text-align: center;
+    min-height: 55vh;
+}
+
+.secondary-main .row:not(:last-child) {
+    padding: 5rem 0;
+}
+
+.card.secondary-card {
+    background-color: thistle;
+    border: none;
+}
+
+.card.secondary-card .card-header {
+    border: 2px solid black;
+}
+
+.tertiary-main {
+    min-height: 90vh;
+    background-color: white;
+}
+
+.tertiary-main .row {
+    padding: 5rem 0;
+}
+
+.blockquote p {
+    font-size: 1.75rem;
+    line-height: 5rem;;
+}
+
+.contact {
+    min-height: 30vh;
+    background-color: blueviolet;
+    padding-top: 4rem;
+}
+
+.contact p {
+    text-transform: uppercase;
+}
+
+.footer {
+    min-height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.footer .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+}
+
+
