@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .tertiary-main {
-    min-height: 70vh;
+    min-height: 60vh;
     background-color: white;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .contact {
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(https://images.pexels.com/photos/545520/pexels-photo-545520.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-repeat: no-repeat;
     background-size: cover;
