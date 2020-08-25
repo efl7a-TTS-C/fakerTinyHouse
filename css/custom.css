@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
-    color: white;
 }
 
 .navbar.navbar-expand-md {
@@ -26,12 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-bottom: 2px solid orange;
 }
 
-.jumbotron-fluid {
-    padding: 10% 10% 0 0;
-}
-
 .jumbotron-fluid .blockquote-footer {
-    color: white;
     font-size: 3rem;
 }
 
@@ -45,10 +39,6 @@ h1, h2, h3, h4, h5, h6, p {
     min-height: 55vh;
 }
 
-.secondary-main .row:not(:last-child) {
-    padding: 5rem 0;
-}
-
 .card.secondary-card {
     background-color: #FEF5E7;
     border: none;
@@ -59,12 +49,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .tertiary-main {
-    min-height: 90vh;
+    min-height: 80vh;
     background-color: white;
-}
-
-.tertiary-main .row {
-    padding: 5rem 0;
 }
 
 .blockquote p {
@@ -77,23 +63,15 @@ h1, h2, h3, h4, h5, h6, p {
     background-image: url(https://images.pexels.com/photos/545520/pexels-photo-545520.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 4rem;
-    color: white;
 }
 
 .contact p {
     text-transform: uppercase;
 }
 
-.footer {
+.footer .row{
     min-height: 50vh;
     background-color: black;
     color: white;
-    text-align: center;
 }
-
-.footer .col-md-4 {
-    padding-top: 5%;
-}
-
 
