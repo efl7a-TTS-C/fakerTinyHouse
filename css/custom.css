@@ -6,11 +6,16 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: big-caslon-fb, serif;
 }
 
-.main {
-    background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 80vh;
+.scrollButton a {
+    height: 2rem;
+    width: 2rem;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 100;
+    font-size: 1.5rem;
+    padding: 0;
 }
 
 .navbar.navbar-expand-md {
@@ -25,12 +30,26 @@ h1, h2, h3, h4, h5, h6, p {
     border-bottom: 2px solid orange;
 }
 
+#main {
+    background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+
+    /* The next two attributes were assigned so the scroll button would not appear until after the main section and companies sections had been seen. */
+    z-index: 1000;
+    position: relative;
+}
+
 .jumbotron-fluid .blockquote-footer {
     font-size: 3rem;
 }
 
 .companies {
     background-image: linear-gradient(to right, rgb(142, 131, 161), rgb(245, 153, 136));
+    /* The next two attributes were assigned so the scroll button would not appear until after the main section and companies sections had been seen. */
+    z-index: 1000;
+    position: relative;
 }
 
 .secondary-main {
@@ -49,13 +68,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .tertiary-main {
-    min-height: 80vh;
+    min-height: 70vh;
     background-color: white;
 }
 
 .blockquote p {
     font-size: 1.75rem;
-    line-height: 5rem;;
+    line-height: 3rem;;
 }
 
 .contact {
@@ -69,9 +88,35 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: uppercase;
 }
 
-.footer .row{
+.footer{
     min-height: 50vh;
     background-color: black;
     color: white;
+    text-align: center
 }
 
+.footer .row:not(:last-child) {
+    height: 90%;
+}
+
+.footer span {
+    font-size: .5rem;
+}
+
+.footer img {
+    max-height: 4rem;
+}
+
+.logo {
+    border-radius: 3px;
+}
+
+.otherLogo {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
