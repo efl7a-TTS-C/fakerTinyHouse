@@ -7,7 +7,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .main {
-    background-color: blue;
+    background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 80vh;
     color: white;
 }
@@ -24,20 +26,21 @@ h1, h2, h3, h4, h5, h6, p {
     border-bottom: 2px solid orange;
 }
 
-.navbar-toggler-icon {
-    fill: white;
-}
-
 .jumbotron-fluid {
     padding: 10% 10% 0 0;
 }
 
+.jumbotron-fluid .blockquote-footer {
+    color: white;
+    font-size: 3rem;
+}
+
 .companies {
-    background-color: rgb(43, 37, 29);
+    background-image: linear-gradient(to right, rgb(142, 131, 161), rgb(245, 153, 136));
 }
 
 .secondary-main {
-    background-color: thistle;
+    background-color: #FEF5E7;
     text-align: center;
     min-height: 55vh;
 }
@@ -47,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .card.secondary-card {
-    background-color: thistle;
+    background-color: #FEF5E7;
     border: none;
 }
 
@@ -71,8 +74,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact {
     min-height: 30vh;
-    background-color: blueviolet;
+    background-image: url(https://images.pexels.com/photos/545520/pexels-photo-545520.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 4rem;
+    color: white;
 }
 
 .contact p {
@@ -83,14 +89,10 @@ h1, h2, h3, h4, h5, h6, p {
     min-height: 50vh;
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .footer .col-md-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     padding-top: 5%;
 }
 
